@@ -4,7 +4,67 @@
     <meta charset="utf-8">
     <title>WordCloud</title>
     <style type="text/css">
-        @import "style/bootstrap.css";
+        @import "style/bootstrap.css";<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>WordCloud</title>
+    <style type="text/css">
+        @import "CSS/bootstrap.css";
+        @import "CSS/home-index.css";
+        @import "CSS/Site.css";
+    </style>
+    <script src="JS/jquery-3.2.1.js"></script>
+    <script src="JS/d3.js"></script>
+    <script src="JS/Font.js"></script>
+    <script src="JS/word-cloud.js"></script>
+    <script src="JS/bootstrap.js"></script>
+    <script src="JS/modernizr-2.6.2.js"></script>
+    <script src="JS/ai.0.15.0-build58334.min.js"></script>
+    <script src="JS/home-index.js"></script>
+    <script src="JS/Point.js"></script>
+    <script src="JS/SegEvent.js"></script>
+    <script src="JS/Rect.js"></script>
+    <script src ="JS/WordCloudLayout.js"></script>
+    <script src ="JS/Word.js"></script>
+    <script src ="JS/ConstrainedTagCloudAlg.js"></script>
+    <script src ="JS/DataItem.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-6 col-lg-6">
+            <div class="my-panel">
+                <span class="my-panel-heading">
+                    Configuration
+                </span>
+                <hr class="my-panel-seg"/>
+                <form>
+                    <div class="form-group">
+                        <label for="text-content-text">Content</label>
+                        <textarea class="form-control" rows="5" id="text-content-text"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-default" id="update-button">Update</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-xs-6 col-lg-6">
+            <div class="my-panel" @*style="display: none">
+                <div>
+                    <span class="my-panel-heading">WordCloud</span>
+                </div>
+                <hr class="my-panel-seg" />
+                <div id="word-cloud"> </div>
+                <div id="invisable-item"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
         @import "style/home-index.css";
         @import "style/Site.css";
     </style>
