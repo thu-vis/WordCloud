@@ -1,7 +1,7 @@
 # WordCloud
 A word cloud package for web
 ## Ruquirement
-    Webstorm 2017.2.5
+    WebStorm 2017.2.5
     Chrome、Firefox or IE9+
 ## Description
 A word cloud using scan-line algorithm which makes word with more weight bigger and closer to the center.
