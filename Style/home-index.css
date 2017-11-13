@@ -1,0 +1,8 @@
+﻿#word-cloud {
+    height: 300px;
+}
+
+#invisable-item {
+    visibility: hidden;
+    position: absolute;
+}

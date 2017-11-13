@@ -1,0 +1,53 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+/*input,
+select,
+textarea {
+    max-width: 280px;
+}*/
+
+.container {
+    max-width: 1900px;
+    -moz-min-width: 1200px;
+    -ms-min-width: 1200px;
+    -o-min-width: 1200px;
+    -webkit-min-width: 1200px;
+    min-width: 1200px;
+}
+
+.question-sign {
+    color: steelblue;
+    font-size: 16px;
+}
+
+.my-panel {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*border-bottom: 1px solid steelblue;*/
+}
+
+.my-panel-heading {
+    color: white;
+    background-color: steelblue; 
+    padding: 10px; 
+    display: inline-block;
+    -ms-border-radius: 8px 8px 0 0;
+    border-radius: 8px 8px 0 0;
+}
+
+.my-panel-seg {
+    margin: 0;
+    color: steelblue;
+    border: 0;
+    border-top: 1px solid steelblue;
+}
