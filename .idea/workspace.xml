@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2814987b-4f91-4c69-a225-e73e07a4f458" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scripts/Font.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scripts/ai.0.15.0-build58334.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scripts/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scripts/d3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scripts/jquery-3.2.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scripts/modernizr-2.6.2.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Style/Site.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Style/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Style/home-index.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WordCloud.html" afterPath="$PROJECT_DIR$/WordCloud.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,22 +22,9 @@
       <file leaf-file-name="WordCloud.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WordCloud.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-              <folding>
-                <marker date="1510574574373" expanded="true" signature="1123:2303" ph="..." />
-                <marker date="1510574574373" expanded="true" signature="1148:2295" ph="..." />
-                <marker date="1510574574373" expanded="true" signature="1170:2288" ph="..." />
-                <marker date="1510574574373" expanded="true" signature="1210:1894" ph="..." />
-                <marker date="1510574574373" expanded="true" signature="1245:1879" ph="..." />
-                <marker date="1510574574373" expanded="true" signature="1293:1351" ph="..." />
-                <marker date="1510574574373" expanded="true" signature="1417:1860" ph="..." />
-                <marker date="1510574574373" expanded="true" signature="1462:1659" ph="..." />
-                <marker date="1510574574373" expanded="true" signature="1704:1836" ph="..." />
-                <marker date="1510574574373" expanded="true" signature="1934:2277" ph="..." />
-                <marker date="1510574574373" expanded="true" signature="1993:2262" ph="..." />
-                <marker date="1510574574373" expanded="true" signature="2015:2106" ph="..." />
-              </folding>
+            <state relative-caret-position="552">
+              <caret line="24" column="47" lean-forward="true" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -151,12 +133,12 @@
       <option name="presentableId" value="Default" />
       <updated>1510539972319</updated>
       <workItem from="1510539974868" duration="406000" />
-      <workItem from="1510573843506" duration="744000" />
+      <workItem from="1510573843506" duration="1539000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1150000" />
+    <option name="totallyTimeSpent" value="1945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -195,20 +177,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding>
-            <marker date="1510574574373" expanded="true" signature="1123:2303" ph="..." />
-            <marker date="1510574574373" expanded="true" signature="1148:2295" ph="..." />
-            <marker date="1510574574373" expanded="true" signature="1170:2288" ph="..." />
-            <marker date="1510574574373" expanded="true" signature="1210:1894" ph="..." />
-            <marker date="1510574574373" expanded="true" signature="1245:1879" ph="..." />
-            <marker date="1510574574373" expanded="true" signature="1293:1351" ph="..." />
-            <marker date="1510574574373" expanded="true" signature="1417:1860" ph="..." />
-            <marker date="1510574574373" expanded="true" signature="1462:1659" ph="..." />
-            <marker date="1510574574373" expanded="true" signature="1704:1836" ph="..." />
-            <marker date="1510574574373" expanded="true" signature="1934:2277" ph="..." />
-            <marker date="1510574574373" expanded="true" signature="1993:2262" ph="..." />
-            <marker date="1510574574373" expanded="true" signature="2015:2106" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -294,22 +263,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WordCloud.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-          <folding>
-            <marker date="1510574574373" expanded="true" signature="1123:2303" ph="..." />
-            <marker date="1510574574373" expanded="true" signature="1148:2295" ph="..." />
-            <marker date="1510574574373" expanded="true" signature="1170:2288" ph="..." />
-            <marker date="1510574574373" expanded="true" signature="1210:1894" ph="..." />
-            <marker date="1510574574373" expanded="true" signature="1245:1879" ph="..." />
-            <marker date="1510574574373" expanded="true" signature="1293:1351" ph="..." />
-            <marker date="1510574574373" expanded="true" signature="1417:1860" ph="..." />
-            <marker date="1510574574373" expanded="true" signature="1462:1659" ph="..." />
-            <marker date="1510574574373" expanded="true" signature="1704:1836" ph="..." />
-            <marker date="1510574574373" expanded="true" signature="1934:2277" ph="..." />
-            <marker date="1510574574373" expanded="true" signature="1993:2262" ph="..." />
-            <marker date="1510574574373" expanded="true" signature="2015:2106" ph="..." />
-          </folding>
+        <state relative-caret-position="552">
+          <caret line="24" column="47" lean-forward="true" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
