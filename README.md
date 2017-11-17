@@ -6,7 +6,7 @@ A word cloud using scan-line algorithm which makes word with more weight bigger 
     WebStorm 2017.2.5
     Chrome、Firefox or IE9+
 ## Usage
-Open the folder in WebStorm and run. Input keywords and frequencies, Then click the update button.
+Open the folder in WebStorm and run. Input keywords and frequencies, then click the update button.
 ## Example
   ### words
     Hello,20
@@ -22,7 +22,7 @@ Open the folder in WebStorm and run. Input keywords and frequencies, Then click 
 ![image](https://github.com/thu-vis/WordCloud/blob/master/example_result.png)
 
   ### example link：
-    [click me](https://whwang1996.github.io/WordCloud/)
+    [Click me](https://whwang1996.github.io/WordCloud/)
 ## External libraries
     ai.0.15.0-build58334.min.js
     bootstrap.js
@@ -114,5 +114,3 @@ Update Interval by filled with the rect at x.
 var UpdateEvent = function (x, eIndex, width, height, direction)
 ```
 Update the interval array and marked the rectangle region as forbidden.  
-
-    
