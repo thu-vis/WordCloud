@@ -24,7 +24,7 @@ Open the folder in WebStorm and run. Input keywords and frequencies, then click 
   #### example link：
     **[Click me](https://whwang1996.github.io/WordCloud/)**
 ### Set font
-And the font scale and font family can be set in the following code in word-cloud.js.
+The font scale and font family can be set in the following code in word-cloud.js.
 ```javascript
 var wordCloudFontName = "Times New Roman";  //set the font family here. e.g. Georgia, Microsoft YaHei
 
