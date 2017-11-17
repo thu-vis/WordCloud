@@ -11,7 +11,7 @@ A word cloud using scan-line algorithm which makes word with more weight bigger 
     Font.js
     jquery-3.2.1.js
     modernizr-2.6.2.js
-## Kernal Algorithm
+## Kernel Algorithm
 ### objects
 ```javascript
 function Point(x, y)
