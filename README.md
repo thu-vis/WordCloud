@@ -7,7 +7,7 @@ A word cloud using scan-line algorithm which makes word with more weight bigger 
     Chrome、Firefox or IE9+
 ## Usage
 Open the folder in WebStorm and run. Input keywords and frequencies, then click the update button.  
-The font scale and font family can be set in the following code.
+The font scale and font family can be set in the following code in word-cloud.js.
 ```javascript
 var wordCloudFontName = "Times New Roman";  //set the font family here. e.g. Georgia, Microsoft YaHei
 
