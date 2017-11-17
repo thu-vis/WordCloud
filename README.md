@@ -18,3 +18,7 @@ A word cloud using scan-line algorithm which makes word with more weight bigger 
     Who,23
 ### result
 ![image](https://github.com/thu-vis/WordCloud/blob/master/example_result.png)
+
+### example link：
+    [click me](https://whwang1996.github.io/WordCloud/)
+    
