@@ -6,7 +6,16 @@ A word cloud using scan-line algorithm which makes word with more weight bigger 
     WebStorm 2017.2.5
     Chrome、Firefox or IE9+
 ## Usage
-Open the folder in WebStorm and run. Input keywords and frequencies, then click the update button.
+Open the folder in WebStorm and run. Input keywords and frequencies, then click the update button.  
+The font scale and font family can be set in the following code.
+```javascript
+var wordCloudFontName = "Times New Roman";  //set the font family here. e.g. Georgia, Microsoft YaHei
+
+var weightScale = d3.scalePow()
+    .exponent(0.3)
+    .domain(d3.extent(words, function (word) { return word.weight }))
+    .range([12, 30]); //set the font scale here
+```
 ## Example
   ### words
     Hello,20
