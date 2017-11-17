@@ -34,12 +34,36 @@ var weightScale = d3.scalePow()
     .range([12, 30]); //set the font scale here
 ```
 ## External libraries
-    ai.0.15.0-build58334.min.js
-    bootstrap.js
-    d3.js
-    Font.js
-    jquery-3.2.1.js
-    modernizr-2.6.2.js
+### d3.js  
+**used interface**  
+```
+    select  
+    append  
+    selectAll  
+    data  
+    enter  
+    classed  
+    style  
+    attr  
+    text  
+    scalePow  
+    exponent  
+    domain
+    extent
+    range
+```
+### Font.js
+**used interface**  
+```
+    fontFamily
+    src
+    onload
+```
+### jquery-3.2.1.js
+**used interface**  
+```
+    empty
+```
 ## Kernel Algorithm
   ### objects
 ```javascript
