@@ -75,7 +75,7 @@ function Point(x, y)
 }
 ```
 (X,Y) represents a position in the word cloud.  
-  
+***
 **Rect**
 ```javascript
 function Rect(x, y, width, height)
@@ -88,7 +88,7 @@ function Rect(x, y, width, height)
 ```
 Rect represents the shape of a word in the word cloud.  
 (X,Y) is the top left corner of the Rect, while Width and Height are the width and height of the Rect.  
-  
+***
 **SegEvent**
 ```javascript
 function SegEvent(yy)
@@ -101,7 +101,7 @@ function SegEvent(yy)
 SegEvent is the segment event on the line with y coordinate equal to y.  
 y is the y coordinates.  
 upIntervals are the spare parts above the y coordinates while downIntervals are the below ones.  
-  
+***
 **Word**
 ```javascript
 function Word(word, textWidth, textHeight, weight)
@@ -113,7 +113,7 @@ function Word(word, textWidth, textHeight, weight)
 }
 ```
 Object Word is essential information of a word.  
-  
+***
 **DataItem**
 ```javascript
 function DataItem(point, word, size)
@@ -133,38 +133,38 @@ Layout keyword according to the segment event.
 rects: the boundary of keyword  
 displaced: whether the rectangle is placed  
 prefers: prefered location for each rectangle  
-  
+***
 **GeneratePreferSegEvent**
 ```javascript
 var GeneratePreferSegEvent = function(yLine)
 ```
 Generate the new segment event in the line of <code>yLine</code>, and return the index of events.  
 If the yline is aligned with existed event segment, use the exsited one.  
-  
+***
 **IntersectInterval**
 ```javascript
 var IntersectInterval = function(orig, other)
 ```
 Intersect interval orig and other. deposite the result in orig interval.  
-  
+***
 **FillInterval**
 ```javascript
 var FillInterval = function(interval, width, cx)
 ```
 Find the position which is the best place to displace word in the intervals. 
-  
+***
 **SearchCenterLine**
 ```javascript
 var SearchCenterLine = function (w, hh, centerEventIndex, center)
 ```
 Searching the suitable position on the center line of prefered location.  
-  
+***
 **UpdateInterval**
 ```javascript
 var UpdateInterval = function(interval, w, x)
 ```
 Update Interval by filled with the rect at x.  
-  
+***
 **UpdateEvent**
 ```javascript
 var UpdateEvent = function (x, eIndex, width, height, direction)
