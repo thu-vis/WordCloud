@@ -30,8 +30,8 @@ function Rect(x, y, width, height)
     this.Height = height; //number
 }
 ```
-Rect represents the shape of a word in the word cloud.
-(X,Y) is the top left corner of the Rect, while Width and Height are the width and height of the Rect.
+Rect represents the shape of a word in the word cloud.  
+(X,Y) is the top left corner of the Rect, while Width and Height are the width and height of the Rect.  
 ```javascript
 function SegEvent(yy)
 {
@@ -40,9 +40,9 @@ function SegEvent(yy)
     this.downIntervals = new Array(); //Array
 }
 ```
-SegEvent is the segment event on the line with y coordinates equal to y.
-y is the y coordinates.
-upIntervals are the spare parts above the y coordinates while downIntervals are the below ones.
+SegEvent is the segment event on the line with y coordinates equal to y.  
+y is the y coordinates.  
+upIntervals are the spare parts above the y coordinates while downIntervals are the below ones.  
 ```javascript
 function Word(word, textWidth, textHeight, weight)
 {
@@ -52,7 +52,7 @@ function Word(word, textWidth, textHeight, weight)
     this.weight = weight; //number
 }
 ```
-Object Word is essential information of a word.
+Object Word is essential information of a word.  
 ```javascript
 function DataItem(point, word, size)
 {
@@ -61,7 +61,7 @@ function DataItem(point, word, size)
     this.size = size; //number
 }
 ```
-DataItem is an item of the result
+DataItem is an item of the result.  
 ## Example
 ### words
     Hello,20
