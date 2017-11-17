@@ -14,8 +14,8 @@ Open the folder in WebStorm and run. Input keywords and frequencies, then click 
     Try,25
     Normally,25
     You,15
-    Want,30
-    More,30
+    Want,30
+    More,30
     Words,18
     Who,23
   #### result
@@ -69,7 +69,7 @@ function SegEvent(yy)
     this.downIntervals = new Array(); //Array
 }
 ```
-SegEvent is the segment event on the line with y coordinates equal to y.  
+SegEvent is the segment event on the line with y coordinate equal to y.  
 y is the y coordinates.  
 upIntervals are the spare parts above the y coordinates while downIntervals are the below ones.  
 ```javascript
