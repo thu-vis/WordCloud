@@ -4,7 +4,7 @@ A word cloud package for web
 A word cloud using scan-line algorithm which makes word with more weight bigger and closer to the center.
 ## Ruquirement
     WebStorm 2017.2.5
-    Chrome、Firefox or IE9+
+    Chrome、Firefox or IE9+
 ## External libraries
     bootstrap.js
     d3.js
