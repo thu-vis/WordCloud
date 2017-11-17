@@ -7,17 +7,8 @@ A word cloud using scan-line algorithm which makes word with more weight bigger 
     Chrome、Firefox or IE9+
 ## Usage
 Open the folder in WebStorm and run. Input keywords and frequencies, then click the update button.  
-The font scale and font family can be set in the following code in word-cloud.js.
-```javascript
-var wordCloudFontName = "Times New Roman";  //set the font family here. e.g. Georgia, Microsoft YaHei
-
-var weightScale = d3.scalePow()
-    .exponent(0.3)
-    .domain(d3.extent(words, function (word) { return word.weight }))
-    .range([12, 30]); //set the font scale here
-```
-## Example
-  ### words
+### Example
+  #### words
     Hello,20
     World,10
     Try,25
@@ -27,11 +18,21 @@ var weightScale = d3.scalePow()
     More,30
     Words,18
     Who,23
-  ### result
+  #### result
 ![image](https://github.com/thu-vis/WordCloud/blob/master/example_result.png)
 
-  ### example link：
+  #### example link：
     [Click me](https://whwang1996.github.io/WordCloud/)
+### Set font
+And the font scale and font family can be set in the following code in word-cloud.js.
+```javascript
+var wordCloudFontName = "Times New Roman";  //set the font family here. e.g. Georgia, Microsoft YaHei
+
+var weightScale = d3.scalePow()
+    .exponent(0.3)
+    .domain(d3.extent(words, function (word) { return word.weight }))
+    .range([12, 30]); //set the font scale here
+```
 ## External libraries
     ai.0.15.0-build58334.min.js
     bootstrap.js
