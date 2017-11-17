@@ -2,7 +2,7 @@
 
 var wordCloud = function (words) {
     //set the font name
-    var wordCloudFontName = "Times New Roman";//Georgia, Serif, Microsoft YaHei
+    var wordCloudFontName = "Times New Roman";//Georgia, Microsoft YaHei
 
     //set the font scale
     var weightScale = d3.scalePow()
