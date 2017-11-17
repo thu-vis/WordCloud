@@ -62,6 +62,39 @@ function DataItem(point, word, size)
 }
 ```
 DataItem is an item of the result.  
+### functions
+```javascript
+var PlaceRectangles = function (rects, displaced, prefers)
+```
+Layout keyword according to the segment event.  
+rects: the boundary of keyword  
+displaced: whether the rectangle is placed  
+prefers: prefered location for each rectangle  
+```javascript
+var GeneratePreferSegEvent = function(yLine)
+```
+Generate the new segment event in the line of <code>yLine</code>, and return the index of events.  
+If the yline is aligned with existed event segment, use the exsited one.  
+```javascript
+var IntersectInterval = function(orig, other)
+```
+Intersect interval orig and other. deposite the result in orig interval.  
+```javascript
+var FillInterval = function(interval, width, cx)
+```
+Find the position which is the best place to displace word in the intervals.  
+```javascript
+var SearchCenterLine = function (w, hh, centerEventIndex, center)
+```
+Searching the suitable position on the center line of prefered location.  
+```javascript
+var UpdateInterval = function(interval, w, x)
+```
+Update Interval by filled with the rect at x.  
+```javascript
+var UpdateEvent = function (x, eIndex, width, height, direction)
+```
+Update the interval array and marked the rectangle region as forbidden.  
 ## Example
 ### words
     Hello,20
