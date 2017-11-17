@@ -123,7 +123,7 @@ function DataItem(point, word, size)
     this.size = size; //number
 }
 ```
-DataItem is an item of the result.  
+DataItem is one item of the result.  
 ***
   ### functions
 **PlaceRectangles**
