@@ -6,7 +6,8 @@ A word cloud using scan-line algorithm which makes word with more weight bigger 
     WebStorm 2017.2.5
     Chrome、Firefox or IE9+
 ## External libraries
-    bootstrap.js
+    ai.0.15.0-build58334.min.js
+    bootstrap.js
     d3.js
     Font.js
     jquery-3.2.1.js
