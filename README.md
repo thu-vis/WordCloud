@@ -14,8 +14,8 @@ Open the folder in WebStorm and run. Input keywords and frequencies, then click 
     Try,25
     Normally,25
     You,15
-    Want,30
-    More,30
+    Want,30
+    More,30
     Words,18
     Who,23
   #### result
