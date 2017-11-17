@@ -22,7 +22,7 @@ Open the folder in WebStorm and run. Input keywords and frequencies, then click 
 ![image](https://github.com/thu-vis/WordCloud/blob/master/example_result.png)
 
   #### example link：
-    [Click me](https://whwang1996.github.io/WordCloud/)
+    **[Click me](https://whwang1996.github.io/WordCloud/)**
 ### Set font
 And the font scale and font family can be set in the following code in word-cloud.js.
 ```javascript
