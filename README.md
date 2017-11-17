@@ -37,32 +37,32 @@ var weightScale = d3.scalePow()
 ### d3.js  
 **used interface**  
 ```
-    select  
-    append  
-    selectAll  
-    data  
-    enter  
-    classed  
-    style  
-    attr  
-    text  
-    scalePow  
-    exponent  
-    domain
-    extent
-    range
+select  
+append  
+selectAll  
+data  
+enter  
+classed  
+style  
+attr  
+text  
+scalePow  
+exponent  
+domain
+extent
+range
 ```
 ### Font.js
 **used interface**  
 ```
-    fontFamily
-    src
-    onload
+fontFamily
+src
+onload
 ```
 ### jquery-3.2.1.js
 **used interface**  
 ```
-    empty
+empty
 ```
 ## Kernel Algorithm
   ### objects
