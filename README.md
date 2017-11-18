@@ -101,8 +101,8 @@ function SegEvent(yy)
 }
 ```
 SegEvent is the segment event on the line with y coordinate equal to y.  
-y is the y coordinates.  
-upIntervals are the spare parts above the y coordinates while downIntervals are the below ones.  
+y is the y coordinate.  
+upIntervals are the spare parts above the y coordinate while downIntervals are the below ones.  
 ***
 **Word**
 ```javascript
