@@ -127,7 +127,7 @@ function DataItem(point, word, size)
 ```
 DataItem is one item of the result.  
 ***
-  ### functions
+  ### Functions
 **PlaceRectangles**
 ```javascript
 var PlaceRectangles = function (rects, displaced, prefers)
