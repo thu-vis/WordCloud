@@ -52,6 +52,7 @@ domain
 extent
 range
 ```
+***
 ### Font.js
 **used interface**  
 ```
@@ -59,6 +60,7 @@ fontFamily
 src
 onload
 ```
+***
 ### jquery-3.2.1.js
 **used interface**  
 ```
