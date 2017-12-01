@@ -1,8 +1,21 @@
 ﻿#word-cloud {
     height: 300px;
 }
+#slider-range-min{
+    width: 600px;
+    position: relative;
+    top: 1px;
+    left: 5%;
+}
 
-#invisable-item {
-    visibility: hidden;
-    position: absolute;
+#amount{
+    position: relative;
+    top: 1px;
+    left: 5%;
+}
+
+#text{
+    position: relative;
+    top: 1px;
+    left: 5%;
 }
