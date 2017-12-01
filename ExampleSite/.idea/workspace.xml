@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="WordCloud.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WordCloud.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WordCloud.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="33" column="44" lean-forward="false" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+            <state relative-caret-position="184">
+              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
               <folding>
                 <element signature="n#style#0;n#input#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -59,7 +59,7 @@
       <file leaf-file-name="WordCloudLayout.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scripts/WordCloudLayout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18331">
+            <state relative-caret-position="807">
               <caret line="797" column="0" lean-forward="false" selection-start-line="797" selection-start-column="0" selection-end-line="797" selection-end-column="0" />
               <folding />
             </state>
@@ -78,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home-index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home-index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scripts/home-index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+            <state relative-caret-position="214">
+              <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -157,7 +157,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -178,7 +178,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
@@ -200,35 +200,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="WordCloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WordCloud-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ExampleSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExampleSite" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="WordCloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WordCloud-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ExampleSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExampleSite" type="462c0819:PsiDirectoryNode" />
               <item name="CSS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="WordCloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WordCloud-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ExampleSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExampleSite" type="462c0819:PsiDirectoryNode" />
               <item name="Scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WordCloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WordCloud-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="External Libraries" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -283,14 +277,15 @@
       <workItem from="1512098075818" duration="3372000" />
       <workItem from="1512101699633" duration="2585000" />
       <workItem from="1512108191981" duration="9000" />
+      <workItem from="1512112474006" duration="25000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49181000" />
+    <option name="totallyTimeSpent" value="49206000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17708333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -485,18 +480,8 @@
     <entry file="file://$PROJECT_DIR$/Scripts/ConstrainedTagCloudAlg.js" />
     <entry file="file://$PROJECT_DIR$/Scripts/word-cloud.js" />
     <entry file="file://$PROJECT_DIR$/Scripts/Word.js" />
-    <entry file="file://$PROJECT_DIR$/example_result.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3588">
-          <caret line="156" column="13" lean-forward="false" selection-start-line="156" selection-start-column="13" selection-end-line="156" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/example_result.png" />
+    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/CSS/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="55913">
@@ -554,16 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordCloud.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="33" column="44" lean-forward="false" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/External Libraries/jquery-3.2.1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235106">
@@ -574,19 +549,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/home-index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/WordCloudLayout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18331">
+        <state relative-caret-position="807">
           <caret line="797" column="0" lean-forward="false" selection-start-line="797" selection-start-column="0" selection-end-line="797" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/home-index.js">
+    <entry file="file://$PROJECT_DIR$/WordCloud.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="184">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
