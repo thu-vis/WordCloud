@@ -33,7 +33,7 @@ Input the id of div.
 ```
 ### text  
 ```
-Input the array of objects including word and weight pairs.  
+Input the array of objects including word and weight pair.  
 ```
 
 **e.g.**
