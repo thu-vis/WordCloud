@@ -82,14 +82,9 @@ To show the word cloud.
   ### example link：
     **[Click me](https://whwang1996.github.io/WordCloud/)**
 ### Set font
-The font scale and font family can be set in the following code in Scripts/word-cloud.js.
+The font family can be set in the following code in Scripts/word-cloud.js.
 ```javascript
 var wordCloudFontName = "Times New Roman";  //set the font family here. e.g. Georgia, Microsoft YaHei
-
-var weightScale = d3.scalePow()
-    .exponent(0.3)
-    .domain(d3.extent(words, function (word) { return word.weight }))
-    .range([12, 30]); //set the font scale here
 ```
 
 ## Kernel Algorithm
