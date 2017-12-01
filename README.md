@@ -5,10 +5,52 @@ A word cloud using scan-line algorithm which makes word with more weight bigger 
 ## Ruquirement
     WebStorm 2017.2.5
     Chrome、Firefox or IE9+
-## Usage
-Open the folder in WebStorm and run. Input keywords and frequencies, then click the update button.  
-### Example
-  #### words
+## External libraries
+```
+d3.js
+Font.js
+jquery-3.2.1.js
+jquery-ui-1.12.1.js
+
+bootstrap.css
+jquery-ui-1.12.1.css
+```
+
+## Interface 
+```javascript
+WordCloudLayout.select("word-cloud")
+            .text(words)
+            .attr("width", $("#word-cloud").width())
+            .attr("height", $("#word-cloud").height())
+            .attr("num", words.length)
+            .attr("minFontSize", minFontSize)
+            .attr("maxFontSize", maxFontSize)
+            .show();
+```
+### select  
+Input the id of div.  
+### text  
+Input the array of objects including word and weight pairs.  
+
+**e.g.**
+```javascript
+[{ word: "Hello", weight: 20 }, { word: "World", weight: 10 }]
+```
+### attr  
+#### width  
+The width of word cloud.  
+#### height   
+The height of word cloud.  
+#### num
+The number of words to show.
+#### minFontSize
+The minimum font size of word cloud.
+#### maxFontSzie
+The maximum font size of word cloud.
+### show
+To show the word cloud.
+## Example
+  ### words
     Hello,20
     World,10
     Try,25
@@ -18,10 +60,10 @@ Open the folder in WebStorm and run. Input keywords and frequencies, then click 
     More,30
     Words,18
     Who,23
-  #### result
+  ### result
 ![image](https://github.com/thu-vis/WordCloud/blob/master/example_result.png)
 
-  #### example link：
+  ### example link：
     **[Click me](https://whwang1996.github.io/WordCloud/)**
 ### Set font
 The font scale and font family can be set in the following code in Scripts/word-cloud.js.
@@ -33,39 +75,7 @@ var weightScale = d3.scalePow()
     .domain(d3.extent(words, function (word) { return word.weight }))
     .range([12, 30]); //set the font scale here
 ```
-## External libraries
-### d3.js  
-**used interface**  
-```
-select  
-append  
-selectAll  
-data  
-enter  
-classed  
-style  
-attr  
-text  
-scalePow  
-exponent  
-domain
-extent
-range
-```
-***
-### Font.js
-**used interface**  
-```
-fontFamily
-src
-onload
-```
-***
-### jquery-3.2.1.js
-**used interface**  
-```
-empty
-```
+
 ## Kernel Algorithm
   ### objects
 **Point**
