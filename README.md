@@ -28,9 +28,13 @@ WordCloudLayout.select("word-cloud")
             .show();
 ```
 ### select  
+```
 Input the id of div.  
+```
 ### text  
+```
 Input the array of objects including word and weight pairs.  
+```
 
 **e.g.**
 ```javascript
@@ -38,15 +42,25 @@ Input the array of objects including word and weight pairs.
 ```
 ### attr  
 #### width  
+```
 The width of word cloud.  
+```
 #### height   
+```
 The height of word cloud.  
+```
 #### num
+```
 The number of words to show.
+```
 #### minFontSize
+```
 The minimum font size of word cloud.
+```
 #### maxFontSzie
+```
 The maximum font size of word cloud.
+```
 ### show
 To show the word cloud.
 ## Example
