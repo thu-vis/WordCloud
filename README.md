@@ -62,7 +62,9 @@ The minimum font size of word cloud.
 The maximum font size of word cloud.
 ```
 ### show
+```
 To show the word cloud.
+```
 ## Example
   ### words
     Hello,20
