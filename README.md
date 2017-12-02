@@ -60,7 +60,7 @@ The maximum font size of word cloud.
 ```
 #### font
 ```
-Set the font family
+Set the font family.
 ```
 ### show
 ```
