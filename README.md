@@ -10,10 +10,6 @@ A word cloud using scan-line algorithm which makes word with more weight bigger 
 d3.js
 Font.js
 jquery-3.2.1.js
-jquery-ui-1.12.1.js
-
-bootstrap.css
-jquery-ui-1.12.1.css
 ```
 
 ## Interface 
