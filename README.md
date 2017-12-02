@@ -78,7 +78,8 @@ To show the word cloud.
   ### example link：
     **[Click me](https://whwang1996.github.io/WordCloud/)**
 ### Set font
-The font family can be set in the following code.
+The font family can be set in the following code.  
+```javascript
 var wordCloudFontName = "Times New Roman";  //set the font family here. e.g. Georgia, Microsoft YaHei
 ```
 
