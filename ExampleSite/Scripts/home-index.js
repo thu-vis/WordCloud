@@ -31,6 +31,7 @@ $(function () {
             .attr("num", words.length)
             .attr("minFontSize", minFontSize)
             .attr("maxFontSize", maxFontSize)
+            .attr("font", "Times New Roman")
             .show();
 
         $( "#slider-range-min" ).slider({

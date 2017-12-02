@@ -63,13 +63,14 @@
         words = _words;
         return this;
     };
-    
+
     var width;
     var height;
     var num;
     var minFontSize;
     var maxFontSize;
-    
+    var fontname;
+
     var selection_attr = function (name, value)
     {
         switch (name)
@@ -86,11 +87,14 @@
             case "minFontSize":
                 minFontSize = value;
                 break;
+            case "font":
+                fontname = value;
+                break;
             case "maxFontSize":
                 maxFontSize = value;
                 break;
             default:
-                alert("undefined");
+                alert("attr undefined!");
         }
         return this;
     };
@@ -107,8 +111,7 @@
     };
 
     var wordCloud = function () {
-        //set the font name
-        var wordCloudFontName = "Times New Roman";//Georgia, Microsoft YaHei
+        var wordCloudFontName = fontname;
 
         var wd = new Array();
         var wt = new Array();
