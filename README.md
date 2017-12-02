@@ -10,10 +10,6 @@ A word cloud using scan-line algorithm which makes word with more weight bigger 
 d3.js
 Font.js
 jquery-3.2.1.js
-jquery-ui-1.12.1.js
-
-bootstrap.css
-jquery-ui-1.12.1.css
 ```
 
 ## Interface 
@@ -82,7 +78,7 @@ To show the word cloud.
   ### example link：
     **[Click me](https://whwang1996.github.io/WordCloud/)**
 ### Set font
-The font family can be set in the following code in Scripts/word-cloud.js.
+The font family can be set in the following code.  
 ```javascript
 var wordCloudFontName = "Times New Roman";  //set the font family here. e.g. Georgia, Microsoft YaHei
 ```
