@@ -81,8 +81,7 @@ To show the word cloud.
 ![image](https://github.com/thu-vis/WordCloud/blob/master/example_result.png)
 
   ### example link：
-    **[Click me](https://whwang1996.github.io/WordCloud/)**
-CloudFontName = "Times New Roman";  //set the font family here. e.g. Georgia, Microsoft YaHei
+    **[Click me](https://whwang1996.github.io/WordCloud/)**  
 
 ## Kernel Algorithm
   ### objects
