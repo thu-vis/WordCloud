@@ -21,6 +21,7 @@ WordCloudLayout.select("word-cloud")
             .attr("num", words.length)
             .attr("minFontSize", minFontSize)
             .attr("maxFontSize", maxFontSize)
+            .attr("font", "Times New Roman")
             .show();
 ```
 ### select  
@@ -57,6 +58,10 @@ The minimum font size of word cloud.
 ```
 The maximum font size of word cloud.
 ```
+#### font
+```
+Set the font family
+```
 ### show
 ```
 To show the word cloud.
@@ -77,11 +82,7 @@ To show the word cloud.
 
   ### example link：
     **[Click me](https://whwang1996.github.io/WordCloud/)**
-### Set font
-The font family can be set in the following code.  
-```javascript
-var wordCloudFontName = "Times New Roman";  //set the font family here. e.g. Georgia, Microsoft YaHei
-```
+CloudFontName = "Times New Roman";  //set the font family here. e.g. Georgia, Microsoft YaHei
 
 ## Kernel Algorithm
   ### objects
